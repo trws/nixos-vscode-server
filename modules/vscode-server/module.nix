@@ -25,6 +25,11 @@ let
 
       # mono
       krb5
+
+      # fix scripts
+      bash
+      zsh
+      ripgrep
     ]);
 
     runScript = "${originalNodePackage}/bin/node";
